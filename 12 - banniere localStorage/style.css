@@ -30,12 +30,33 @@ Banniere cookies
     position:fixed;
     bottom:0px;
 
-    display: flex;
+    display: none;
     align-items: center;
     justify-content:space-between;
     opacity: 1;
     transition:1s;
 }
+
+.cookies.show {
+    display: flex;
+}
+
+.cookies.fade-out {
+  animation: fade-out 0.7s ease-out forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
 .cookies-texte{
     padding: 1rem;
 }

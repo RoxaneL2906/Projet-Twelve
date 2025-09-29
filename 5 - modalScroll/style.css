@@ -36,6 +36,10 @@ section{
     z-index: 100;
 }
 
+.modal.show {
+    display: block;
+}
+
 .modal .container{
     background-color: aliceblue;
     padding: 3rem;

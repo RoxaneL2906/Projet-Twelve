@@ -1,6 +1,6 @@
 
-//1. Je recupere tout les switchs
+//1. Je recupere tous les switchs
 
-//2. Je recupere tout les elements html de ma page
+//2. Je recupere tous les elements html de ma page
 
-//3. Je parcours tout les switchs
+//3. Je parcours tous les switchs
