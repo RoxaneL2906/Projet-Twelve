@@ -33,7 +33,7 @@ const posts = [
 ];
 
 // 3. Je parcours la bdd
-posts.forEach(function (post) {
+posts.forEach((post) => {
   // 4. Je créer un nouveau post dans le conteneur de post pour chaque post de la BDD
   const newElement = `
         <div class="post">
